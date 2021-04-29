@@ -13,4 +13,7 @@ class PagesController < ApplicationController
 
   def blog
   end
+
+  def fr
+  end
 end

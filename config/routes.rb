@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   get 'contact', to: 'pages#contact', as: 'contact'
   get 'work', to: 'pages#work', as: 'work'
   get 'blog', to: 'pages#blog', as: 'blog'
+  get 'fr', to: 'pages#fr', as: 'fr'
 end
