@@ -10,3 +10,49 @@
 // .navbar-lewagon .navbar-brand img {
 //   width: 40px;
 // }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: $almostblack;
+}
+
+li, a {
+  text-decoration: none;
+  list-style: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $almostblack;
+  border: solid 1px;
+  border-color: $darkgrey;
+  height: 70px;
+}
+
+a {
+  color: $almostwhite;
+}
+/* mouse over link */
+a:hover {
+  text-decoration: none;
+  color: $purple;
+}
+
+.fr {
+  color: $purple;
+}
+
+.logo {
+  font-weight: bold;
+  font-style: italic;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.nav-elements {
+  font-size: 18px;
+}
