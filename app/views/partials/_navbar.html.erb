@@ -1,26 +1,16 @@
-<div class="">
-  <div class="">
+
+<div class="header">
+  <nav>
     <ul class="">
-      <div class="">
-        <li class="">
-          <%= link_to "Profile", about_path, class: "" %>
-        </li>
-        <li class="">
-          <%= link_to "Work", work_path, class: "" %>
-        </li>
-        <li class="">
-          <%= link_to 'karine.', root_path, class: "" %>
-        </li>
-        <li class="">
-          <%= link_to "FR", fr_path, class: "" %>
-        </li>
-        <li class="">
-          <%= link_to "Blog", blog_path, class: "" %>
-        </li>
-        <li class="">
-          <%= link_to "Contact", contact_path, class: "" %>
-        </li>
-      </div>
+      <li class=""><%= link_to "Profile", about_path, class: "h2" %></li>
+      <li class=""><%= link_to "Work", work_path, class: "h2" %></li>
     </ul>
-  </div>
+    <div class=""><%= link_to 'karine.', root_path, class: "logo" %></div>
+    <ul>
+      <li class=""><%= link_to "FR", fr_path, class: "h2" %></li>
+      <li class=""><%= link_to "Blog", blog_path, class: "h2" %></li>
+    </ul>
+    <div class=""><%= link_to "Contact", contact_path, class: "h2" %></div>
+  </nav>
 </div>
+
