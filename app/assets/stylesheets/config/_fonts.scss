@@ -1,16 +1,33 @@
-// Import Google fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Work+Sans:400,700&display=swap');
+// Raleway
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+$raleway: 'Raleway', sans-serif;
+// Montserrat
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+$montserrat: 'Montserrat', sans-serif;
 
-// Define fonts for body and headers
-$body-font: "Work Sans", "Helvetica", "sans-serif";
-$headers-font: "Nunito", "Helvetica", "sans-serif";
+.logo {
+  font-family: $montserrat;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+}
 
-// To use a font file (.woff) uncomment following lines
-// @font-face {
-//   font-family: "Font Name";
-//   src: font-url('FontFile.eot');
-//   src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
-//        font-url('FontFile.woff') format('woff'),
-//        font-url('FontFile.ttf') format('truetype')
-// }
-// $my-font: "Font Name";
+.h1 {
+  font-family: $montserrat;
+  font-size: 24px;
+}
+
+.h2 {
+  font-family: $montserrat;
+  font-size: 18px;
+}
+
+.h3 {
+  font-family: $montserrat;
+  font-size: 14px;
+}
+
+.p {
+  font-family: $raleway;
+  font-size: 12px;
+}
