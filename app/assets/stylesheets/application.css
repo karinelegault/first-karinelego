@@ -1,5 +1,6 @@
 
-@import "components/navbar";
 @import "config/fonts";
 @import "config/colors";
-@import "pages";
+
+@import "components/index";
+@import "pages/index";
