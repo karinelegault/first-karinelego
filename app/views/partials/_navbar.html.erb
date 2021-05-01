@@ -1,11 +1,14 @@
-
 <ul class="header">
-  <li class=""><%= link_to "Profile", about_path, class: "h2 nav-elements" %></li>
-  <li class=""><%= link_to "Work", work_path, class: "h2 nav-elements" %></li>
+  <div class="header-sections">
+    <li class=""><%= link_to "Profile", about_path, class: "h2 nav-elements" %></li>
+    <li class=""><%= link_to "Work", work_path, class: "h2 nav-elements" %></li>
+  </div>
   <li class=""><%= link_to 'karine.', root_path, class: "h2 logo" %></li>
-  <li class=""><%= link_to "FR", fr_path, class: "h2 fr nav-elements" %></li>
-  <li class=""><%= link_to "Blog", blog_path, class: "h2 nav-elements" %></li>
-  <li class=""><%= link_to "Contact", contact_path, class: "contact" %></li>
+  <div class="header-sections">
+    <li class=""><%= link_to "FR", fr_path, class: "h2 fr nav-elements" %></li>
+    <li class=""><%= link_to "Blog", blog_path, class: "h2 nav-elements" %></li>
+    <li class=""><%= link_to "Contact", contact_path, class: "contact" %></li>
+  </div>
 </ul>
 
 
