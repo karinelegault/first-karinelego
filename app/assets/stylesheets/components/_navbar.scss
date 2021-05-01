@@ -1,11 +1,12 @@
-.header {
-  display: flex
+.navbar-lewagon {
   justify-content: space-between;
-  align-items: center;
-  height: 70px;
-  background-color: almostblack;
+  background: white;
 }
 
-li {
-  text-decoration: none;
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
 }
