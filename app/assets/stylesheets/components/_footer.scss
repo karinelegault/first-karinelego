@@ -1,3 +1,24 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $almostblack;
+  height: 55px;
+  padding-left: 140px;
+  margin: 0;
+  padding: 0;
+  padding-right: 100px;
+  padding-left: 1060px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
 .p-footer {
   color: $almostwhite;
+  font-family: $montserrat;
+  font-size: 12px;
+  padding-left: 10px;
 }
+
